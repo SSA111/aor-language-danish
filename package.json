@@ -1,0 +1,28 @@
+{
+  "name": "aor-language-danish",
+  "version": "1.0.0",
+  "description": "Danish translations for admin-on-rest, the frontend framework for building admin applications on top of REST services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SSA111/aor-language-danish.git"
+  },
+  "keywords": [
+    "react",
+    "admin-on-rest",
+    "translation"
+  ],
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "author": "Sebastian Andersen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SSA111/aor-language-danish.git/issues"
+  },
+  "homepage": "https://github.com/SSA111/aor-language-danish.git#readme"
+}

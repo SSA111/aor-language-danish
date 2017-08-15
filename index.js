@@ -1,0 +1,72 @@
+module.exports = {
+    aor: {
+        action: {
+            delete: 'Slet',
+            show: 'Vis',
+            list: 'Liste',
+            save: 'Gem',
+            create: 'Opret',
+            edit: 'Rediger',
+            cancel: 'Annuller',
+            refresh: 'Opdater',
+            add_filter: 'Tilføj filter',
+            remove_filter: 'Slet filter',
+        },
+        boolean: {
+            true: 'Ja',
+            false: 'Nej',
+        },
+        page: {
+            list: '%{name} Liste',
+            edit: '%{name} #%{id}',
+            show: '%{name} #%{id}',
+            create: 'Opret %{name}',
+            delete: 'Slet %{name} #%{id}',
+            dashboard: 'Oversigt',
+        },
+        input: {
+            image: {
+                upload_several: 'Træk og slip filer for at uploade, eller klik for at vælge filer.',
+                upload_single: 'Træk og slip en fil til upload, eller klik for at vælge filen',
+            },
+        },
+        message: {
+            yes: 'Ja',
+            no: 'Nej',
+            are_you_sure: 'Er du sikker?',
+            about: 'Om',
+        },
+        navigation: {
+            no_results: 'Ingen resultater fundet',
+            page_out_of_boundaries: 'Sidetal %{page} uden for grænsen',
+            page_out_from_end: 'Kan ikke besøge siden efter sidste side',
+            page_out_from_begin: 'Kan ikke besøge siden før første side',
+            page_range_info: '%{offsetBegin}-%{offsetEnd} af %{total}',
+            next: 'Næste',
+            prev: 'Forrige',
+        },
+        auth: {
+            username: 'Brugernavn',
+            password: 'Adgangskode',
+            sign_in: 'Log ind',
+            sign_in_error: 'Log ind mislykkedes, prøv igen',
+            logout: 'Log ud',
+        },
+        notification: {
+            updated: 'Objekt opdateret',
+            created: 'Objekt oprettet',
+            deleted: 'Objekt slettet',
+            item_doesnt_exist: 'Objektet findes ikke',
+            http_error: 'Kommunikationsfejl med serveren',
+        },
+        validation: {
+            required: 'Obligatorisk',
+            minLength: 'Skal være mindst %{min} tegn',
+            maxLength: 'Skal være max %{max} tegn',
+            minValue: 'Skal være mindst %{min}',
+            maxValue: 'Skal være max %{max}',
+            number: 'Skal være et tal nummer',
+            email: 'Skal være en gyldig e-mail-adresse',
+        },
+    },
+};
