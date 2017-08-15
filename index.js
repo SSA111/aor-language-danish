@@ -65,7 +65,7 @@ module.exports = {
             maxLength: 'Skal være max %{max} tegn',
             minValue: 'Skal være mindst %{min}',
             maxValue: 'Skal være max %{max}',
-            number: 'Skal være et tal nummer',
+            number: 'Skal være et nummer',
             email: 'Skal være en gyldig e-mail-adresse',
         },
     },
